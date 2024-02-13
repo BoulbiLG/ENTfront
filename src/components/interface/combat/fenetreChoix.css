@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fenetreChoixConteneur {
+    width: 30vh;
+    height: 15vh;
+    border: 1px solid black;
+    background-color: white;
+    padding: 2vh;
+    word-wrap: break-word;
+    cursor:grab;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 390px;
+    left: 74.5%;
+}
+
+.fenetreChoixConteneur .listeBouton {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.fenetreChoixConteneur .listeBouton button {
+    width: 100%;
+    padding: 0.5vh;
+    margin: 2px;
+}
+
+/* ========== choix cible ========== */
+
+.fenetreChoixConteneur .choixCible {
+    position: absolute;
+    background-color: white;
+    width: 30vh;
+    height: 15vh;
+    border: 1px solid black;
+    background-color: white;
+    padding: 2vh;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fenetreChoixConteneur .choixCible .haut {
+    flex: 1;
+}
+
+.fenetreChoixConteneur .choixCible .listeCible {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.fenetreChoixConteneur .choixCible .bas {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.fenetreChoixConteneur .choixCible button {
+    padding: 0.5vh;
+    margin-top: 2vh;
+}
+
+.fenetreChoixConteneur .choixCible p {
+    cursor: pointer;
+}
+
+.fenetreChoixConteneur .choixCible .listeCible p:hover {
+    background-color: grey;
+    color: white;
+}

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.inventaireConteneur {
+    width: 130vh;
+    height: 70vh;
+    border: 1px solid black;
+    background-color: white;
+    padding: 2vh;
+    word-wrap: break-word;
+    cursor:grab;
+    display: flex;
+}
+
+.inventaireConteneur .caseSection {
+    padding: 1vh;
+    overflow-y: scroll;
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inventaireConteneur .infosSection {
+    flex: 1;
+}
+
+.inventaireConteneur .description {
+    word-wrap: break-word;
+    padding: 2vh;
+    border: 1px solid black;
+}
+
+.inventaireConteneur .infosSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inventaireConteneur .profil {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.inventaireConteneur .boutonSection {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2vh;
+}

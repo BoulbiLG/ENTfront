@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.deplacementConteneur {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5vh;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.deplacementConteneur .bas {
+    display: flex;
+    justify-content: center;
+}
+
+.deplacementConteneur .haut button {
+    padding: 1vh;
+}
+
+.deplacementConteneur .bas button {
+    padding: 1vh;
+}

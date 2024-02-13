@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.dialogueConteneur {
+    z-index: 999;
+    width: 80vh;
+    height: 50vh;
+    border: 1px solid black;
+    background-color: white;
+    padding: 2vh;
+    cursor:grab;
+}
+
+.dialogueConteneur .dialogue {
+    word-wrap: break-word;
+    overflow-y: scroll;
+}
+
+.dialogueConteneur .choix {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 35vh;
+    box-sizing: border-box;
+    padding: 2vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.dialogueConteneur .choix p {
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+
+.dialogueConteneur .choix button {
+    padding: 1.1vh;
+    margin: 0.1vh 0;
+}
+
+.dialogueConteneur .fermer {
+    position: absolute;
+    bottom: -4vh;
+    left: 6vh;
+}
+
+.dialogueConteneur .humeur {
+    display: flex;
+    margin-bottom: 1vh;
+}
+
+.dialogueConteneur .humeur p {
+    margin-right: 2vh;
+}

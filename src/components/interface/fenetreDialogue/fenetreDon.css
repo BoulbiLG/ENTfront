@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fenetreDonConteneur {
+    width: 80vh;
+    height: 50vh;
+    border: 1px solid black;
+    background-color: white;
+    padding: 2vh;
+    cursor:grab;
+    position: absolute;
+    top: 5vh;
+    left: 5vh;
+}
+
+.fenetreDonConteneur .caseItem {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}

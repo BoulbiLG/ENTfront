@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fenetreStatConteneur {
+    width: 80vh;
+    height: 35vh;
+    border: 1px solid black;
+    background-color: white;
+    padding: 2vh;
+    word-wrap: break-word;
+    cursor:grab;
+    display: flex;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.fenetreStatConteneur .jauge {
+    display: flex;
+    align-items: center;
+}
+
+.fenetreStatConteneur .jauge .indicateur {
+    margin-left: 2vh;
+}
+
+.fenetreStatConteneur .jauge .predicateur {
+    margin-right: 2vh;
+}

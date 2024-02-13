@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fenetreDropItemConteneur {
+    width: 50vh;
+    height: 50vh;
+    border: 1px solid black;
+    background-color: white;
+    padding: 2vh;
+    word-wrap: break-word;
+    cursor:grab;
+    display: flex;
+    flex-direction: column;
+}
+
+.fenetreDropItemConteneur .coffreSection {
+    flex: 1;
+    overflow-y: scroll;
+}
+
+.fenetreDropItemConteneur .coffreSection2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.fenetreCoffreConteneur .inventaireSection {
+    flex: 1;
+    overflow-y: scroll;
+}
+
+.fenetreCoffreConteneur .inventaireSection2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fenetreCoffreConteneur hr {
+    margin: 2vh 0;
+}

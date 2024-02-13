@@ -1,0 +1,4 @@
+colision :
+
+variable global colision faites
+desactivé la touche de colision de façon global grace a la variable global

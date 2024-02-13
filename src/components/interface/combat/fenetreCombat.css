@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fenetreCombatConteneur {
+    width: 130vh;
+    height: 70vh;
+    border: 1px solid black;
+    background-color: white;
+    padding: 2vh;
+    word-wrap: break-word;
+    cursor:grab;
+    display: flex;
+    flex-direction: column;
+}
+
+.fenetreCombatConteneur .info {
+    flex: 1;
+}
+
+.fenetreCombatConteneur .personnage {
+    flex: 3;
+}
+
+.fenetreCombatConteneur .action {
+    flex: 3;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.fenetreCombatConteneur .fenetreDialogue {
+    flex: 1;
+}
+
+.fenetreCombatConteneur .listeEquipier {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: scroll;
+}

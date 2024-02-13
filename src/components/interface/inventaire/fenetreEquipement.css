@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.equipementConteneur {
+    width: 80vh;
+    height: 60vh;
+    border: 1px solid black;
+    background-color: white;
+    padding: 2vh;
+    word-wrap: break-word;
+    cursor:grab;
+    display: flex;
+    background-image: url('https://image.noelshack.com/fichiers/2024/06/1/1707153536-equipement.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.equipementConteneur .caseSection {
+    overflow: hidden;
+}

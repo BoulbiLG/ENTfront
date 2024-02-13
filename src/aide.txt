@@ -1,0 +1,29 @@
+HUMEUR :
+
+    joie :
+        attaque +
+        defense -
+
+    tristesse :
+        attaque -
+        vitesse -
+        courage -
+        defense -
+    
+    colere :
+        vitesse +
+        testo +
+
+    peur : 
+        attaque -
+        defense +
+
+STAT :
+
+    courage :
+        augmente le taux de coup critique
+
+    testo :
+        augmente toute les stats
+
+        
